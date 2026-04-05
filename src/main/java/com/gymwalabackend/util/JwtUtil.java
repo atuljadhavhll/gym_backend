@@ -12,7 +12,7 @@ import java.util.Map;
 @Component
 public class JwtUtil {
 
-    private String secret = "MeG8P9cjmDkmeNTcJGgzAtiv/uZoTaehJ7dguz0PiNg=";
+    private String secret = "secretCode";
 
 
     private final long expirationMs = 86400000; // 1 day

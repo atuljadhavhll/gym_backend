@@ -11,7 +11,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api")
 public class UserController {
-    
+
 
     @GetMapping("/user")
     public Map<String, Object> user(Authentication authentication) {
